@@ -1,4 +1,11 @@
 {
+  "name": "meraNode",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/echo_server.js"
+  },
   "devDependencies": {
     "@types/node": "^24.10.0",
     "typescript": "^5.9.3"
