@@ -1,5 +1,4 @@
 import * as net from "net";
-import { resolve } from "path";
 
 type ReaderCallbacks = {
     resolve: (v: Buffer) => void;
